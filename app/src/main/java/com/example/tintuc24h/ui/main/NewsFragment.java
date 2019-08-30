@@ -87,7 +87,7 @@ public class NewsFragment extends Fragment {
             }
             else // If not have cache
             {
-                dialog.show();
+               // dialog.show();
                 //Fetch new data
                 mService.getSources().enqueue(new Callback<WebSite>() {
                     @Override
@@ -98,9 +98,7 @@ public class NewsFragment extends Fragment {
 
                         //Save to cache
                         Paper.book().write("cache",new Gson().toJson(response.body()));
-
                         dialog.dismiss();
-
                     }
 
                     @Override

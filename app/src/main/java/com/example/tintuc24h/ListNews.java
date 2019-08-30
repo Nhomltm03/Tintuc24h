@@ -67,12 +67,10 @@ public class ListNews extends AppCompatActivity {
         kbv = (KenBurnsView)findViewById(R.id.top_image);
         top_author = (TextView)findViewById(R.id.top_author);
         top_title = (TextView)findViewById(R.id.top_title);
-
         lstNews = (RecyclerView)findViewById(R.id.lstNews);
         lstNews.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         lstNews.setLayoutManager(layoutManager);
-
 
         if(getIntent() != null)
         {
@@ -83,7 +81,7 @@ public class ListNews extends AppCompatActivity {
             }
         }
 
-
+       // loadNews(source,false);
     }
 
     private void loadNews(String source, boolean isRefreshed) {
