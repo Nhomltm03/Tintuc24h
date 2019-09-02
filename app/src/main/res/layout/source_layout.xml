@@ -8,7 +8,6 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:orientation="horizontal"
-    android:background="@android:color/transparent"
     >
 
     <android.support.design.card.MaterialCardView
@@ -16,9 +15,9 @@
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="0dp"
-        app:cardElevation="20dp"
-        android:background="#E0E0E0"
-        app:cardCornerRadius="15dp">
+        app:cardElevation="15dp"
+        android:background="@drawable/round_white"
+        >
 
 
         <de.hdodenhof.circleimageview.CircleImageView
