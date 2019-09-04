@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://openweathermap.org/</domain> // Xác định rõ link API sẽ kết nối
+    </domain-config>
+
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" /> // Nếu muốn chấp nhận mọi kết nối thì thêm dòng này, không khuyến khích do sẽ gây ra vấn đề security
+        </trust-anchors>
+    </base-config>
+</network-security-config>

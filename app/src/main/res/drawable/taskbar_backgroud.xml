@@ -3,8 +3,8 @@
     android:thickness="@dimen/appbar_padding">
     <gradient
         android:angle="90"
-        android:endColor="#26C6DA"
+        android:endColor="#1976D2"
         android:centerColor="#26C6DA"
-        android:startColor="#66BB6A"
+        android:startColor="#7986CB"
         android:type="linear"/>
 </shape>

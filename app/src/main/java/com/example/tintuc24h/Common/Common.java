@@ -2,7 +2,6 @@ package com.example.tintuc24h.Common;
 
 import com.example.tintuc24h.Interface.IconBetterIdeaService;
 import com.example.tintuc24h.Interface.NewsService;
-import com.example.tintuc24h.Model.IconBetterIdea;
 import com.example.tintuc24h.Remote.IconBetterIdeaClient;
 import com.example.tintuc24h.Remote.RetrofitClient;
 

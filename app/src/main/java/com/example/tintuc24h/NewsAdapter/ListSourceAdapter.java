@@ -13,16 +13,10 @@ import com.example.tintuc24h.Common.Common;
 import com.example.tintuc24h.Interface.IconBetterIdeaService;
 import com.example.tintuc24h.Interface.ItemClickListener;
 import com.example.tintuc24h.ListNews;
-import com.example.tintuc24h.MainActivity;
-import com.example.tintuc24h.Model.IconBetterIdea;
 import com.example.tintuc24h.Model.WebSite;
 import com.example.tintuc24h.R;
-import com.squareup.picasso.Picasso;
-
 import de.hdodenhof.circleimageview.CircleImageView;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+
 
 class ListSourceViewHolder extends RecyclerView.ViewHolder
         implements View.OnClickListener

@@ -12,17 +12,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import com.example.tintuc24h.Common.Common;
 import com.example.tintuc24h.Interface.NewsService;
-import com.example.tintuc24h.MainActivity;
 import com.example.tintuc24h.Model.WebSite;
 import com.example.tintuc24h.NewsAdapter.ListSourceAdapter;
 import com.example.tintuc24h.R;
 import com.google.gson.Gson;
 
-import dmax.dialog.SpotsDialog;
 import io.paperdb.Paper;
 import retrofit2.Call;
 import retrofit2.Callback;
